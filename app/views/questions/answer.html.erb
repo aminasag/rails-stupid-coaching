@@ -1,0 +1,23 @@
+<!-- <h1>Questions#answer</h1>
+<p>Find me in app/views/questions/answer.html.erb</p> -->
+
+<html>
+  <head>
+    <title>RailsStupidCoaching</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+    <h1> this is your question: </h1>
+      <h2> <%= @question%> </h2>
+
+    <h1> this is your answer: </h1>
+      <h2> <%= @answer%> </h2>
+
+  </body>
+</html>
+
